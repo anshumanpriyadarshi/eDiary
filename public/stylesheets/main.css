@@ -1,0 +1,10 @@
+#delete-form{
+    padding-left: 1%;
+}
+
+#campground-image{
+    width: auto;
+    max-width: auto;
+    height: 35em;
+    min-height: 30em;
+}
