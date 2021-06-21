@@ -4,7 +4,7 @@
 <div class="container pt-4">
     <div class="row">   
         <div class="col-md-3">
-            <p class="lead">YelpCamp</p>
+            <p class="lead">eDiary</p>
             <div class="list-group">
                 <li class="list-group-item active">Info 1</li>
                 <li class="list-group-item">Info 2</li>
@@ -18,7 +18,7 @@
                     <div class="d-flex">
                         <div class="p-1"><h3 class="d-inline-flex"><strong><%= campground.name %></strong></h3>
                         </div>
-                        <div class="p-1 ml-auto"><h6 class="d-inline-flex ml-auto"><strong>$10.00/night</strong></h6>
+                        <div class="p-1 ml-auto"><h6 class="d-inline-flex ml-auto"><strong>memory</strong></h6>
                         </div>
                     </div>       
                     <div class="d-flex flex-column">
@@ -36,7 +36,7 @@
                 </div>
             </div>
                 
-            <div class="card d-flex mt-4 " style="background-color: #ededed;">               
+            <div class="card d-flex mt-4 mb-4" style="background-color: #ededed;">               
                     <a class="btn btn-sm btn-success m-2 ml-auto" href="/campgrounds/<%= campground._id %>/comments/new ">Add Comment</a>
                 <% campground.comment.forEach((comment) => { %>
                     <hr class="m-2">
